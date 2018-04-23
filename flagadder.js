@@ -9,9 +9,12 @@ javascript:
      *	assignFlag - boolean - true => assign flags, false => remove flags, Defaults to false.
      */
 
+var assignFlag = true;
+
     if (typeof(assignFlag) == "undefined") {
         var assignFlag = true;
     }
+
 var flagTypeInput = prompt("Enter flag type:");
 
 var flagTypes = [
